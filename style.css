@@ -93,13 +93,13 @@ section {
   justify-content: center;
   box-shadow: -4px 1px 25px #948f8d;
 }
-.tool h1{
+/*.tool h1{
   background: transparent;
   font-family: sans-serif;
   font-size: 80px;
   opacity: 0.05;
   padding: 20px;
-}
+}*/
 .main {
   width: 350px;
   height: 500px;

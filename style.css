@@ -234,14 +234,14 @@ section {
   background-color: transparent;
   z-index: 2;
   overflow: hidden;
-  transform: rotate(15deg);
+  transform: rotate(5deg);
 }
 .raindrop {
   display: inline-block;
   width: 2px;
   height: 4px;
   position: absolute;
-  background-color: white;
+  background-color: #5c5c5c;
   z-index: -5;
   animation: drop 1.5s ease-in infinite;
 }

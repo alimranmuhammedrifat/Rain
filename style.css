@@ -87,11 +87,11 @@ section {
   bottom: 2%;
   z-index: 4;
   border-radius: 20px 20px 0px 0px;
-  background-color: #4d311e;
+  background-color: #293133;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: -5px 0px 15px #948f8d;
+  box-shadow: -4px 1px 25px #948f8d;
 }
 .tool h1{
   background: transparent;

@@ -19,6 +19,9 @@
         <div class="people"><img src="img/people.png" alt="image not found"></div>
         <div class="tool"></div>
         <div class="main">
+            <audio id="bgAudio" autoplay loop>
+               <source src="piyano.mp3" type="audio/mpeg">
+            </audio>
             <div class="container">
                 <div class="frame"></div>
                 <label for="switch" id="ball"></label>
@@ -160,5 +163,22 @@
             </div>
         </div>
     </section>
+<script>
+    const audio = document.getElementById("bgAudio");
+
+    audio.play().catch(() => {
+        console.log("Autoplay blocked — waiting for user interaction.");
+    });
+
+    
+    document.addEventListener("click", () => {
+        audio.play().catch(() => {});
+    }, { once: true });
+
+    document.addEventListener("touchstart", () => {
+        audio.play().catch(() => {});
+    }, { once: true });
+</script>
+    
 </body>
 </html>
